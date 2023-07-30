@@ -20,6 +20,7 @@
 - ***DEMO***
   
   ```py
+    from onedimsearch import *
     # define a object function
     def fun(t):
         return np.arctan(t)*t - 0.5*np.log(t*t + 1)
@@ -40,6 +41,7 @@
 - ***DEMO***
 
   ```py
+    from ucoptim import *
     # define a object function
     def fun(x):
         return x[0]**2 + 25*x[1]**2
@@ -62,6 +64,7 @@
 - ***DEMO***
   
   ```py
+    from coptim import *
     # define object function
       def ori_objfun(x):
         x = np.array(x)
