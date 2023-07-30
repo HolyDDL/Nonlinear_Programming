@@ -67,14 +67,14 @@
         x = np.array(x)
         value = 0.0
         for each in x:
-            value += x**2
+            value += eacb**2
         return value
     # define inequal constraint function
     def inequal(x):
         x = np.array(x)
         value = 0.0
         for each in x:
-            value = 1-x
+            value = 1-each
         return value
     # use extenal class to solve
     pf = ExtenalPenaltyFunction(ori_objfun, [inequal],[])
