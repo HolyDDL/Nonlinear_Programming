@@ -54,7 +54,7 @@
 
 ## part 3: Constrained optimization problems
 
-- include 2 method: ExtenalPenaltyFunction Method(including 3 methods to solve), InternalPenaltyFunction Method(Not be ready yet)
+- include 2 method: ExtenalPenaltyFunction Method(including 3 methods to solve: PSO Method, ConjugateGradient Method, SteepestDescent Method), InternalPenaltyFunction Method(Not be ready yet)
 - **How to use it:**
   
   1. Define a object function that should be minimized and constraints
