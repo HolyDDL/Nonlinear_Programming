@@ -67,7 +67,7 @@
         x = np.array(x)
         value = 0.0
         for each in x:
-            value += eacb**2
+            value += each**2
         return value
     # define inequal constraint function
     def inequal(x):
